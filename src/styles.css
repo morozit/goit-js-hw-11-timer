@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  background: #0f3854;
+  background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
+  background-size: 100%;
+  position: relative;
+}
+
+.field {
+  margin-right: 30px;
+  padding: 0;
+}
+
+#timer-1 {
+  display: flex;
+  font-family: 'Share Tech Mono', monospace;
+  color: #ffffff;
+  justify-content: center;
+  position: relative;
+  top: 40%;
+  color: #daf6ff;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+}
+
+.value {
+  display: block;
+  letter-spacing: 0.05em;
+  font-size: 80px;
+  padding: 5px 0;
+}
+
+.label {
+  display: block;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-size: 20px;
+}
